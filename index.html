@@ -11,13 +11,30 @@ Jacob Shiman (jacob.shiman@yale.edu)
 Joanna Wu (joanna.wu@yale.edu)
 Nick Pham (nick.pham@yale.edu)
 
-<b>Burn Down Chart</b>
-Joanna to complete
+<b>Final Takeaways</b>
+During these last 4 weeks, it has been a marathon to get our Eventbrite website, UX/UI, and analytics. We have been able to successfully finish all the functionality, and have our cumulative findings below.
  
-<b>Sprint Completed Stories</b>
+<b>Burn Down Chart</b>
+This week we wrapped up our deliverables and Google Analytics. The cumulative burndown chart is below (Note: the flat surface is mostly due to the Thanksgiving break):
+
+<b>Traffic Analysis: </b>
+Since getting Google Analytics up and running, our website has tracked roughly 4100 visitors. The distribution of our referrals so far has been the following:
+40.13% (1654 visitors) are from the law school (http://law.yale.edu/)
+31.95% (1317 visitors) are from the med school (http://medicine.yale.edu/)
+19.92% (821 visitors) are from the search engine (http://search.yale.edu)
+Having only started recording website analytics since November 9th, we do not have analytics on our customers from before then.
+
+<b>A/B Test: “Donate” or “Support”</b>
+When we switched from the “Donate” to “Support” text on December 2nd, we were able to determine that the latter drives more donations on the events detail pages than the former.  “Support” accumulated 470/1577 clicks on events 1,2,3,5 (29.8%) from November 25-December 1, whereas “Donate” only gains 178/1478 clicks (12.0%) from December 2 - 9.   
+
+
+<p>As we clarified our roles and responsibilities within the sprint, we started focusing on creating user personas and stories to enhance the customer experience on our website. Nick and Jacob have been tag teaming on the coding early on in the week, even attending office hours to help get the events page up. On Thursday, we came together to look at the Google Analytics, only to realize that we had submitted the wrong URL which is why it was not registering. One open issue that we are still troubleshooting is why our own visits are not registering in the analytics.. We also clarified that Understanding that we needed to complete all the tasks in the sprint backlog on Thursday, Jacob created a Google Sheet to re-allocate the remaining tasks, helped code the html, and brought in Joanna to help with the debugging. Since then, we have been ramping up on our coding. Due to others’ recruiting trips and pending deadlines, Diana took on the responsibility of allocating story points to the tasks and creating the burndown chart. </p>
+
+<b> Sprint Completed Stories </b>
 Website:
 Website is "up" - 200 HTTP response
 It has the title “My eventbrite clone”
+It has valid HTML
 It uses a popular CSS framework
 It has links to all your events - homepage should list all the events people can attend
 Each event has a time associated with it
@@ -25,43 +42,47 @@ It has a link to your about page in the footer
 It has a link to your home page in the footer
 It has a logo
 It has a link to create a new event
+Reasonable spacing between bottom links
+When visiting the about page
+It exists
+It contains our team nickname
 Event detail page at /events/1
 It exists
-It contains your team nickname
 It has a link to your about page in the footer
 It has a link to your home page in the footer
 It has an h1 element with the event title
 It has no errors shown on the page
 It has a link to donate to the event
-When I visit your API at /api/events:
-It exists
-When I visit page for creating a new event at /events/new
-It existsWhen I visit your API at /api/events
-it does not have an errors shown on the page by default
-<p>As we clarified our roles and responsibilities within the sprint, we started focusing on creating user personas and stories to enhance the customer experience on our website. Nick and Jacob have been tag teaming on the coding early on in the week, even attending office hours to help get the events page up. On Thursday, we came together to look at the Google Analytics, only to realize that we had submitted the wrong URL which is why it was not registering. One open issue that we are still troubleshooting is why our own visits are not registering in the analytics.. We also clarified that Understanding that we needed to complete all the tasks in the sprint backlog on Thursday, Jacob created a Google Sheet to re-allocate the remaining tasks, helped code the html, and brought in Joanna to help with the debugging. Since then, we have been ramping up on our coding. Due to others’ recruiting trips and pending deadlines, Diana took on the responsibility of allocating story points to the tasks and creating the burndown chart. </p>
-<b>Product Backlog </b>
-When I visit an event detail page at /events/1 (randomly chosen)
 It shows the people who have RSVP'd for the event
 It has a form for RSVP'ing to the event
 It has an RSVP form has an input for the user's email address
 It has a submit button
-It should allow to RSVP
-it should not allow to RSVP
-When I visit your API at /api/events
+When I visit your API at /api/events:
+It exists
 It is valid JSON format
 It has all the default events
 When I visit your API for a specific event at /api/events/1
+It exists
 It is valid JSON format
 It has the right event information
 When I visit page for creating a new event at /events/new
+It exists
 It has a form for submitting a new event
+it does not have an errors shown on the page by default
 It the form has inputs for title, location, image URL, date and a submit button
+When I visit an event detail page at /events/1 (randomly chosen)
+It should allow to RSVP
+it should not allow to RSVP
+When I visit page for creating a new event at /events/new
 It does not allow creating an event with bad title
 It does not allow creating an event with bad location
 It does not allow creating an event with bad image
 It does not allow creating an event with bad date
-It allows creating a valid event
-<p>We expect to complete sprint 2 by the time of the next report by creating more clear user stories in order to better prioritize and finish both this week’s uncompleted tasks and get a headstart on next week’s tasks. We will also look into clarifying product owner and scrum master responsibilities to ensure everyone is effectively contributing and executing in the sprints. </p>
+It allows creating a valid even
+This week, we focused on completing the functionality while deriving insights from our Google Analytics. Specifically, we wanted to understand who was driving traffic to our website, if there were any referrals, and conduct the A/B test on whether “Donate” or “Support” would drive the most donations. Nick and Jacob frontloaded the code due to scheduling availability as well as the need to A/B test. Once the code was done, Nick rallied the others on remaining tasks for the sprint. Diana worked on the report and aggregate burndown chart, Joanna conducted the traffic analysis, and Jacob produced the insights for the A/B tests.  
+
+<b>Burn Down Chart</b>
+There is no more tasks left to be completed, and has been a pleasure working on this team during the 4-week sprint.
 
 
 </pre></p>
